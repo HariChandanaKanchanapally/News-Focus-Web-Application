@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ddff3993-d981-4826-aa85-b0e26ca919ed" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8787/Servicenewsfocus.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Servicenewsfocus.xsd" MetadataType="Schema" ID="48cf9d62-ffa2-41f0-8556-f06480433beb" SourceId="1" SourceUrl="http://localhost:8787/Servicenewsfocus.svc?xsd=xsd0" />
+    <MetadataFile FileName="Servicenewsfocus1.xsd" MetadataType="Schema" ID="45d30ad3-0eea-4edf-82d6-6f1648b2cdd6" SourceId="1" SourceUrl="http://localhost:8787/Servicenewsfocus.svc?xsd=xsd2" />
+    <MetadataFile FileName="Servicenewsfocus.wsdl" MetadataType="Wsdl" ID="5d14dbbc-21a8-4052-9a55-54dd2e395a4a" SourceId="1" SourceUrl="http://localhost:8787/Servicenewsfocus.svc?wsdl" />
+    <MetadataFile FileName="Servicenewsfocus2.xsd" MetadataType="Schema" ID="5bd1f266-1844-41fd-a61d-3b8836bc0a0d" SourceId="1" SourceUrl="http://localhost:8787/Servicenewsfocus.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
